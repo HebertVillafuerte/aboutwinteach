@@ -1,0 +1,270 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+.header{
+	width:100%;
+	height: 50px;
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	top: -55px;
+	z-index: 5;
+	transition: all 0.5s;
+	position: fixed;
+	background: rgba(255,255,255,0.9);
+}
+
+.max-header{
+	max-width: 1200px;
+	height: 50px;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.ayudanos{
+	line-height: 50px;
+	font-family: arial;
+	color: #044768;
+}
+
+.imglogo{
+	width: 140px;
+	margin: 2px 0;
+	cursor: pointer;
+}
+
+
+.banner{
+	width: 100%;
+	height: 100vh;
+	background: url(../img/banner.jpg);
+	background-attachment: fixed;
+  	background-size: cover;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	position: relative;
+}
+
+.opacity{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: rgba(1, 82, 119, 0.85);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 25px;
+
+}
+
+.containerbanner{
+	width: 800px;
+	text-align: center;
+	color: white;
+}
+
+
+.containersecond{
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.containertxtbanner{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.containertxtbanner div img{
+	width: 200px;
+	margin: auto;
+	display: block;
+	filter: grayscale(1);
+}
+
+.txtbanner{
+	font-family: 'Rajdhani', sans-serif;
+	font-size: 25px;
+	text-align: center;
+	color: rgba(0,0,0,0.8)
+}
+
+.smalltxtbanner{
+	text-align: center;
+	display: block;
+	color: rgba(0,0,0,0.8);
+	font-family: 'Rajdhani', sans-serif;
+
+}
+
+
+.allcontainertercer{
+	width: 100%;
+	background:#f8f8f8;
+	background: rgba(116, 197, 190, 0.27);
+	padding-top: 50px;
+	color: #024566;
+
+}
+
+.allcontainertercers{
+	width: 100%;
+	padding-top: 50px;
+	background:#f8f8f8;
+	background: rgba(12, 122, 177, 0.24);
+	background: rgb(17, 170, 181);
+	color: #024566;
+	color: white;
+
+}
+
+.allcontainertercerx{
+	background: rgb(132, 19, 34);
+	color: white;
+	padding-top: 50px;
+}
+
+.txtpost{
+	font-size: 30px;
+
+}
+
+.containertercer{
+	display: flex;
+	justify-content: space-between;
+	max-width: 800px;
+	margin: auto;
+	overflow: hidden;
+	font-family: 'Rajdhani', sans-serif;
+	
+}
+
+.containertercer div img{
+	width: 300px;
+}
+
+
+.containertxttercer{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+}
+
+.containertxttercer div{
+	width: 300px;
+}
+
+.containertxttercer div p{
+	font-size: 25px;
+}
+
+.containericonosfinal{
+	max-width: 1000px;
+	margin: auto;
+	padding-top: 50px;
+	color: #028276;
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+}
+
+.containericonosfinal h1{
+	padding-top: 20px;
+}
+
+.containericonosfinal h2{
+	padding-bottom: 50px;
+}
+
+
+
+
+
+.iconos{
+	font-size: 70px;
+	color: rgba(0,0,0,0.3);
+	color: #028276;
+	
+	margin: auto;
+	display: block;
+	text-align: center;
+
+}
+
+.ulicons li{
+	list-style: none;
+	width: 200px;
+	height: 200px;
+	margin: 5px;
+	text-align: center;
+}
+
+.ulicons{
+	display: grid;
+    grid-template-columns: repeat(3, minmax(150px, 200px));
+    justify-content: center;
+    grid-gap: 28px;
+
+}
+
+
+
+.containerquestions{
+	font-family: 'Rajdhani', sans-serif;
+	text-align: center;
+	max-width: 1200px;
+	margin: auto;
+}
+
+.btnquestions{
+	display: block;
+	width: 150px;
+	height: 30px;
+	border-radius: 5px;
+	background:#028276; 
+	color: white;
+	margin: 20px auto;
+	text-align: center;
+	text-decoration: none;
+	line-height: 30px;
+}
+
+
+.footer{
+	width: 100%;
+	height: 150px;
+	background:#028276; 
+}
+
+.max-footer{
+	max-width: 1200px;
+	margin: auto;
+	color: white;
+	height:100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.containertxtfooter{
+	
+}
+
+.derechosautor{
+	color: white;
+}
+
+.derechosautor a{
+	color: white;
+	text-decoration: underline;
+}
