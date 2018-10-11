@@ -22,6 +22,7 @@ a{
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
+	width: 100%;
 }
 
 .ayudanos{
@@ -75,6 +76,7 @@ a{
 	width: 100%;
 	justify-content: space-between;
 	align-items: center;
+	overflow: hidden;
 }
 
 .containertxtbanner{
@@ -268,3 +270,87 @@ a{
 	color: white;
 	text-decoration: underline;
 }
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+	img{
+		display: block;
+		margin: auto;
+	}
+	
+	.containerbanner img{
+		width: 300px;
+	}
+
+	.containerbanner h1{
+		font-size: 30px;
+	}
+
+	.containersecond{
+		display: block;
+		width: 100%;
+	}
+
+	.containersecond div img{
+		width: 300px;
+	}
+
+	.containertercer{
+		display: block;
+		width: 100%;
+		margin: auto;
+	}
+
+	.containericonosfinal h1{
+		font-size: 25px;
+	}
+
+	.containericonosfinal h2{
+		font-size: 22px;
+	}
+
+	.max-footer{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	.containertxtfooter h1{
+		font-size: 18px;
+		text-align: center;
+		margin: 10px 0;
+	}
+
+	.ulicons {
+        grid-gap: 3px;
+        grid-template-columns: repeat(3, minmax(80px, 200px));
+      }
+
+      .ulicons li{
+		width: 80px;
+		margin: auto;
+      }
+
+      .iconos{
+		font-size: 50px;
+      }
+}
+
+
+
+@media screen and (max-width: 868px){
+	.containertxttercer div{
+		padding: 60px;
+	}
+
+}
+
+
+
